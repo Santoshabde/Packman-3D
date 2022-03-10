@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bae429f9f5ca154e8487a397c48908f, type: 3}
+  m_Name: AudiosConfig
+  m_EditorClassIdentifier: 
+  audiosInGame:
+  - audioName: PackmanGameStart
+    audioClip: {fileID: 8300000, guid: cd084eeafdf932f4d83d84de20ca7cca, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - audioName: PackmanDeath
+    audioClip: {fileID: 8300000, guid: f89179bf3718071429809920cf5103e1, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - audioName: PackmanEatGhost
+    audioClip: {fileID: 8300000, guid: 0cd28be765fabe540bc86bde766b9e5d, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - audioName: PackmanEatfruit
+    audioClip: {fileID: 8300000, guid: 3c8bc0f9c4610d84dbaea5d383d8e1df, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - audioName: PackmanChomp
+    audioClip: {fileID: 8300000, guid: 50b1e634b74c468438fbc5f35933c05f, type: 3}
+    volume: 0.748
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - audioName: PackmanIdle
+    audioClip: {fileID: 8300000, guid: fe50f99185e74004dbf30d63539946df, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
